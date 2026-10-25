@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip list *)",
+      "Bash(python app.py)",
+      "Bash(pip install *)",
+      "Bash(python -m http.server 8080)",
+      "Bash(curl *)",
+      "Bash(pkill -f \"python app.py\")",
+      "Bash(pkill -f \"http.server 8080\")",
+      "Bash(pip index *)"
+    ]
+  }
+}
